@@ -105,3 +105,8 @@ Feature: Greet the user
 ---
 
 This setup demonstrates how to use Python for functionality and Cucumber (`behave` in Python) for behavior-driven testing. Let me know if you'd like further guidance!
+
+Command to create hello-cucumber projec
+```bash
+mvn archetype:generate "-DarchetypeGroupId=io.cucumber" "-DarchetypeArtifactId=cucumber-archetype" "-DarchetypeVersion=7.20.1" "-DgroupId=hellocucumber" "-DartifactId=hellocucumber" "-Dpackage=hellocucumber" "-Dversion=1.0.0-SNAPSHOT" "-DinteractiveMode=false"
+```
